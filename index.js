@@ -49,7 +49,7 @@ app.post('/todo', (req, res) => {
     });
 });
 
-app.get('/todo', (req, res) => {
+app.get('/todos', (req, res) => {
     res.send(todos);
 });
 
